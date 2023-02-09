@@ -1,0 +1,67 @@
+body {
+    background: #F7F5EB;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #9EA1D4;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #5d62b5;
+    font-size: 4rem;
+}
+
+button {
+    width: 90%;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#increment {
+    background: #A8D1D1;
+}
+
+#decrement {
+    background: #FD8A8A;
+}
+
+#save {
+    background: #65647C;
+}
+
+#clear {
+    background: #FF8AAE;
+}
+
+#increment:hover {
+    background: #3d7171;
+}
+
+#decrement:hover {
+    background: #8d2a2a;
+}
+
+#save:hover {
+    background: #1c1b36;
+}
+
+#clear:hover {
+    background: #712b40;
+}
+
+#saveEl {
+    margin-bottom: 2rem;
+}
